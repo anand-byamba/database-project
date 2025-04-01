@@ -14,5 +14,13 @@
    - `Phone_num`
    - `Salary`
    - `HireDate`
+  
+2. **Department**
+   - `DepID` (Primary Key)
+   - `DepName`
+   - `Location`
 
-## Relationships  
+## Relationships
+- Employee **Works_for** Departments (1:N)
+- Departments **Manages** Departments (1:1)  
+- Employee **Supervision** Employee (1:N)
